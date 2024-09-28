@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - rub: g++ helloworld.cpp - o helloworld
+      - run: g++ helloworld.cpp - o helloworld
       - run: ./helloworld
